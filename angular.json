@@ -13,6 +13,9 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
+            "styles": [
+              "src/styles.css"
+            ],
             "tsConfig": "tsconfig.json",
             "aot": true
           }

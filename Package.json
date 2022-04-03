@@ -2,17 +2,20 @@
   "name": "blogtest",
   "version": "1.0.0",
   "description": "First Angular 13 Project",
-  "author": "survpavlov",
+  "author": "Surv",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build"
   },
   "dependencies": {
+    "@angular/animations": "^13.3.1",
+    "@angular/cdk": "^13.3.2",
     "@angular/common": "^13.0.0",
     "@angular/compiler": "^13.0.0",
     "@angular/core": "^13.0.0",
     "@angular/forms": "^13.0.0",
+    "@angular/material": "^13.3.2",
     "@angular/platform-browser": "^13.0.0",
     "@angular/platform-browser-dynamic": "^13.0.0",
     "@angular/router": "^13.0.0",

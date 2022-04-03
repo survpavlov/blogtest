@@ -1,3 +1,15 @@
-<label>Введите имя:</label>
+<label>Enter name: </label>
 <input [(ngModel)]="name" placeholder="name">
-<h1>Добро пожаловать {{name}}!</h1>
+<h1>Welcome {{name}}!<br></h1>
+<mat-divider></mat-divider>
+<section>
+    <div class="example-label">Raised</div>
+    <div class="example-button-row">
+      <button mat-raised-button>Basic</button>
+      <button mat-raised-button color="primary">Primary</button>
+      <button mat-raised-button color="accent">Accent</button>
+      <button mat-raised-button color="warn">Warn</button>
+      <button mat-raised-button disabled>Disabled</button>
+      <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+    </div>
+</section>
